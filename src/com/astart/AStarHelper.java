@@ -41,7 +41,7 @@ public class AStarHelper {
             addOpenListByPos(NORMAL_VALUE, mCurNode.x, mCurNode.y + 1);
             addOpenListByPos(NORMAL_VALUE, mCurNode.x - 1, mCurNode.y);
             addOpenListByPos(NORMAL_VALUE, mCurNode.x, mCurNode.y - 1);
-
+//
             addOpenListByPos(CONER_VALUE, mCurNode.x + 1, mCurNode.y + 1);
             addOpenListByPos(CONER_VALUE, mCurNode.x - 1, mCurNode.y - 1);
             addOpenListByPos(CONER_VALUE, mCurNode.x - 1, mCurNode.y + 1);

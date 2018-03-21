@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         AStarHelper mHelper=new AStarHelper();
         GameLayout frame = new GameLayout();
-        frame.setup(800, 800, 20);
+        frame.setup(800, 800, 40);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
@@ -27,7 +27,7 @@ public class Main {
             }
         });
 
-        frame.loadMap(new NodeMap(new int[20][20]));
+        frame.loadMap(new NodeMap(new int[40][40]));
     }
 
 }
